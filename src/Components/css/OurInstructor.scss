@@ -1,0 +1,69 @@
+.dv-our-instructor {
+  .book {
+    width: 20px;
+    height: 20px;
+    vertical-align: 0;
+    margin: 4px;
+  }
+
+  .title {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .h5 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .para {
+    // margin-top: 20px;
+    // margin-left: 50px;
+    color:white;
+   
+  }
+  .h1{
+    color: white;
+    // margin-top: 50px;
+    // margin-left: 20px;
+  }
+  
+  .btn {
+    background-color: white;
+    color:black;
+    // margin-left: 100px;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 500;
+    // margin-top: 80px;
+    // width:150px;
+    // height: 60px;
+  }
+  .btn:hover {
+    background-color: white;
+    color: #0080ff;
+    border-color: #0080ff;
+  }
+ 
+
+ 
+ .card{
+background: linear-gradient(63.08deg, rgba(0, 56, 255, 0.89) 34.64%, rgba(0, 56, 255, 0.8) 46.73%, #E4EAFF 111.97%);
+border-radius: 16px;
+width: 80%;
+margin: 0 auto; /* Center the card horizontally */
+padding: 20px;
+ }
+ 
+
+
+  
+
+}

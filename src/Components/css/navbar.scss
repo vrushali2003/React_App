@@ -1,0 +1,85 @@
+.Nav-container {
+  margin: 0;
+}
+
+.navbar-logo {
+  margin-left: 20px; /*   Add spacing to logo to left  */
+}
+.navbar-nav .nav-item .nav-link {
+  /* give alignment to list-items  */
+  color: black;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.navbar-nav {
+  margin-left: 100px; /* Add spacing to links to left */
+}
+
+.nav-link {
+  margin-right: 25px; /* spacing between nav links*/
+}
+
+.icons {
+  margin-right: 20px; /* Adjust the between icons spacing */
+}
+
+/* Reduce spacing between search bar and navbar links */
+
+.search-bar-navbar-main {
+  margin-right: 60px; /* Adjust the desired spacing  between icons and bar*/
+  padding: 20px 30px;
+}
+
+/* Adjust the size  of search-input-nav-bar */
+.search-bar-navbar-main input {
+  width: 450px;
+  height: 45px;
+  border-radius: 5px;       /* Adjust the round-corners of search-box*/
+  border-color: lightgray;
+  padding: 12px;
+}
+
+/* Adjust the size of the favorite icon */
+.favourite-icon {
+  width: 40px; /* Adjust the desired width */
+  height: 40px; /* Adjust the desired height */
+}
+
+/* Adjust the size of the cart icon */
+.cart-icon {
+  width: 40px; /* Adjust the desired width */
+  height: 40px; /* Adjust the desired height */
+}
+.notification-icon{
+  width: 40px; /* Adjust the desired width */
+  height: 40px; /* Adjust the desired height */
+}
+.person_profile-icon{
+  width: 40px; /* Adjust the desired width */
+  height: 40px; 
+}
+/* Adjust the size of the signup button */
+.btn-login-nav {
+  border-radius: 0;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+
+/* Add this CSS to your navbar.scss or create a new CSS file for it */
+.search-bar-navbar-main {
+  flex-grow: 12; /* Adjust the flex-grow value to control the width of the search bar */
+  margin-right: 10px; /* Add some spacing between search bar and icons */
+}
+
+.icons {
+  display: flex; /* Make the icons display in a row */
+  align-items: center; /* Vertically center the icons within their container */
+}
+
+
+/* If you want to limit the width of the search bar to make more space for the icons, you can do this: */
+.search-bar-navbar-main input {
+  max-width: 150px; /* Adjust the max-width as needed */
+}

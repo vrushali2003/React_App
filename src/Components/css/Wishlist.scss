@@ -1,0 +1,84 @@
+.dv-wishlist {
+  .h1 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 50px;
+  }
+  .image {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .row-border {
+    border: 0.5px solid #ddd; /* You can adjust the border color and thickness */
+  }
+
+  /* Add border style to the columns */
+  .col-border {
+    border: 0.5px solid #ddd; /* You can adjust the border color and thickness */
+  }
+  .heading {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* Center the content within the column */
+  .col-sm-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close-button {
+    padding: 15px;
+  }
+
+  .col-sm-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-sm-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-sm-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h4 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 32px;
+  }
+
+  .btn {
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #0038ff;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+    .btn:hover {
+      
+      background-color: white;
+      color: #0080ff;
+      border: 1px solid #0080ff;
+    }
+    
+    
+
+  .wishlistshop{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+   
+  }
+  
+}

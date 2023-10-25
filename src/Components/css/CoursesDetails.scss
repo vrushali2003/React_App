@@ -1,0 +1,169 @@
+.dv-courses-details {
+  .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .d-flex {
+    margin: 10px;
+  }
+
+  .ess-train {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  .division {
+    text-align: left;
+  }
+  .h6 {
+    text-align: center;
+  }
+  .vedio {
+    width: 20px;
+  }
+  .card {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+
+  .para {
+    font-weight: 400;
+  }
+  .division {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .right-border {
+    border-right: 1px solid #ddd; /* Adjust the border style and color as needed */
+  }
+  .paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 50px;
+  }
+  .h4 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  .btn-1 {
+    background-color: #2575fc;
+    color: white;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .btn-2 {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid #2575fc;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .button-style {
+    text-align: center;
+  }
+  .heading-h3 {
+    margin: 15px;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+  }
+  .margin {
+    margin: 3px;
+  }
+  .vedio {
+    margin-right: 10px;
+  }
+  .h6 {
+    margin: 2px;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+  .with-dashed-border {
+    border-bottom: 1px dashed #000; /* You can adjust the width and color as needed */
+  }
+  .share {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .playicon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .video-container {
+    position: relative;
+  }
+
+  .video-container img.w-100 {
+    width: 100%;
+    /* Add any other styles you need for your video image */
+  }
+
+  .video-container img.playicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add any other styles you need for your play icon */
+  }
+
+  .image-container-main {
+    position: relative;
+  }
+  
+  .image-button {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    transform: translateY(-50%);
+    background-color:blue;
+    color: white;
+   padding-top: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 15px;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .image-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clock {
+    margin-right: 10px; /* Adjust the margin as needed to control the spacing */
+  }
+  .clock{
+    width: 20px;
+    height: 20px;
+    color: blue;
+  }
+  
+  
+  
+}

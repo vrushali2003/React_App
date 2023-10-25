@@ -1,0 +1,28 @@
+/* Style the active indicator */
+.carousel-indicators .active {
+  background-color: bold red; /* Change the background color to bold red */
+  border: 1px solid bold red; /* Add a bold red border */
+  opacity: 1; /* Set opacity to fully visible for the active indicator */
+}
+
+.carousel-indicators {
+  text-align: center;  
+  background: transparent;
+  position: absolute;
+  bottom: 15px; /* Adjust the vertical position as needed */
+  left: 0;
+  right: 0;
+  z-index: 15;
+}
+
+.carousel-indicators li {
+  background-color: grey; /* indicator background color */
+  border: none;
+  cursor: pointer;
+  opacity: 0.5; /* Adjust opacity as needed */
+}
+
+.carousel-indicators .active {
+  background-color: darkslategrey; /* Active circle color */
+  opacity: 1;
+}

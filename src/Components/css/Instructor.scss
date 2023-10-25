@@ -1,0 +1,68 @@
+.dv-instructor {
+  .book {
+    width: 20px;
+    height: 20px;
+    vertical-align: 0;
+    margin: 4px;
+  }
+
+  .title {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ML {
+    padding-top: 0;
+  }
+
+  .h5 {
+    font-weight: 700;
+  }
+
+  .card {
+    width: 90%;
+    height: 50%;
+
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgb(128, 128, 128);
+
+    border-radius: 2px;
+
+    border: none;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .w-100 {
+    padding: 20px;
+  }
+
+  .card:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  .btn {
+    padding: 12px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0080ff;
+    color: white;
+    font-weight: 600;
+  }
+  .btn-style {
+    margin-top: 30px;
+  }
+
+  .btn:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: #0080ff;
+    border: 1px solid #0080ff;
+  }
+}

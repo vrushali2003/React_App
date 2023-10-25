@@ -1,0 +1,60 @@
+.dv-subscribe {
+  background-color: rgba(37, 117, 252, 0.1);
+
+  .h6 {
+    color: blue;
+  }
+  .heading {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .content {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .btn {
+    background-color: #0080ff;
+    color: white;
+    align-items: center;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .btn:hover {
+    background-color: white;
+    color: #0080ff;
+    border-color: #0080ff;
+  }
+
+  .btn-style {
+    text-align: center;
+  }
+
+  .input-style {
+    text-align: center;
+    position: relative;
+  }
+
+  .input-container {
+    position: relative;
+  }
+
+  .input-type {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+
+    border-color: #0080ff;
+  }
+  .email-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the value to control the icon's position */
+    transform: translateY(-50%);
+    width: 30px; /* Adjust the width and height as needed */
+    height: 30px;
+  }
+}

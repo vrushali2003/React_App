@@ -1,0 +1,66 @@
+.dv-about-org {
+  background-color: #e7f1ff;
+
+  .heading-h6 {
+    justify-content: center;
+    color: blue;
+    display: flex;
+    padding-top: 30px;
+  }
+  .book {
+    width: 20px;
+    height: 20px;
+  }
+  .h6 {
+    font-weight: 700;
+    font-size: large;
+    padding-bottom: 15px;
+  }
+
+  .card {
+    background-color: blue;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 15px;
+  }
+
+  .card-text {
+    text-align: center;
+    font-weight: 500;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .image-align {
+    display: flex;
+  }
+
+  .bottom-img {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .column-style {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #0080ff;
+    color: white;
+  }
+  .text-align{
+    text-align: justify;
+  }
+  .w-100{
+   border-radius: 15px;
+  }
+  .h3{
+    text-align: center;
+  }
+  .p{text-align: center;
+  }
+}

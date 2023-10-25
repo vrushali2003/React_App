@@ -1,0 +1,146 @@
+.dv-contact-us {
+  
+  
+  .h1{
+   margin-top: 0;
+   margin-bottom: 0;
+   font-weight: 0;
+  }
+
+ .card {
+
+  
+   margin-bottom: 50px;
+   border-radius: 5px;
+ 
+
+ }
+ .paragraph{
+  color: #0080ff;
+ }
+
+ .content {
+   display: flex;
+   align-items: center; 
+   padding-top: 10px;
+ }
+
+ .icon {
+   margin-right: 10px;
+   background-color: #dae8eb;
+   margin: 20px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-top: 6px;
+ }
+ .follow-us {
+   font-weight: bold;
+ }
+
+ .social-link {
+   margin-right: 10px;
+   margin-top: 10px;
+   
+   border-radius: 60%;
+ }
+.h6{
+ margin-top: 12px;
+}
+
+.p{
+   color: #0080ff;
+}
+
+.form-content{
+ padding: 10px;
+}
+ .contact-us {
+   background-color: #dae8eb;
+   border-radius: 10px;
+   
+}
+.d-flex{
+padding: 10px;
+}
+
+.input-style {
+ position: relative;
+ display: inline-block;
+ border: none;
+}
+
+
+
+
+
+
+.input {
+   width: 250px;
+   border-radius: 8px;
+   border: none;
+   padding: 12px;
+   text-align: left;
+
+ }
+ .input-icon {
+   position: absolute;
+   top: 50%;
+   right: 10px; 
+   transform: translateY(-50%);
+   z-index: 1;
+   width:20px;
+   height: 20px;
+ }
+ 
+
+ .btn {
+   padding: 12px;
+   width: 150px;
+   font-weight: 600;
+   background-color: #0080ff;
+   color: white;
+   margin-top: 30px;
+ }
+ .btn:hover {
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+   background-color: white;
+   color:#0080ff;
+ }
+
+ .mailicon {
+   position: absolute;
+   right: 0px;
+   top: 0;
+   display: flex;
+   align-items: right;
+ }
+
+
+
+ 
+ 
+ .input-icon-pen {
+   position: absolute;
+   top: 10%;
+   right: 10px; 
+   transform: translateY(-50%);
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+ }
+ .name-input {
+   padding-left: 10px; 
+   border: none;
+   border-radius: 10px; 
+   
+ }
+
+ .input-contactus select {
+   width: 250px;
+   border-radius: 10px;
+   border: none;
+   padding: 10px;
+   text-align: left;
+   font-size: large;
+ }
+}

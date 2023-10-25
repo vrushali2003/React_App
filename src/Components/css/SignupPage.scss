@@ -1,0 +1,100 @@
+/* .card-size{
+width: 100px;
+height: 100px;
+
+
+} */
+
+.container-fluid{
+    background-color: #E7F1FF;
+    border: 2px solid red;
+    height:100vh;
+} 
+.container{
+    margin-top: 10vh;
+    width: 80%;
+    height:80vh;
+    display:flex;
+    
+}
+input{
+    margin:40px;
+    width:70%;
+    display:flex;
+    padding: 10px 20px;
+ 
+}
+
+.part1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.heading-1{
+    padding-top:  50px ;
+    align-items: center;
+}
+.paragraph-2{
+    padding-top: 5px;
+}
+.part2{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.H_welcome_back{
+    padding-top: 50px;
+    text-align: center;
+}
+/* .btn2{
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: transparent;
+    height:40px;
+    width:120px;
+    color: white;
+    padding:3px;
+    text-decoration: none;
+justify-content: center;
+    border:2px solid rgb(250, 248, 248);
+} */
+.social-container{
+margin: 20px 0;
+}
+.social{
+border: 1px solid red;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin: 0 10px;
+height: 40px;
+width: 40px;
+}
+.name{
+    padding: 10px 10vw;
+    width: 100%;
+    padding-left: 10px;
+}
+.email{
+    padding: 10px 10vw;
+    width: 100%;
+    padding-left: 10px;
+    
+
+}
+.password{
+    padding: 10px 10vw;
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+ 
+   

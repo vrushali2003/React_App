@@ -1,0 +1,41 @@
+.dv-progress-page{
+
+  
+  .heading{
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+      .progress-bar {
+          width: 30%;
+        }
+        .progress {
+          height: 5px;
+         
+        }
+        .card{
+          
+         padding: 30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        }
+        .w-100{
+          margin-bottom: 20px;
+        }
+  
+        .course-title{
+          margin-top: 20px;
+          margin-bottom: 15px;
+          
+        }
+        .course-description{
+          font-size: 1.25 rem;
+          margin-bottom: 20px;
+        }
+        .col-sm-8{
+          padding-left: 40px;
+        }
+        .d-flex{
+          padding-top:20px ;
+          font-weight: 600;
+          font-size: 18px;
+        }
+  }

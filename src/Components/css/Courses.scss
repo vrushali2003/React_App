@@ -1,0 +1,69 @@
+.dv-course {
+  .book {
+    width: 20px;
+    height: 20px;
+    vertical-align: 0;
+    margin: 4px;
+  }
+
+  .title {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading-h1 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .column-style {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #0080ff;
+    color: white;
+  }
+  .h5 {
+    text-align: center;
+  }
+  .h6 {
+    text-align: center;
+  }
+
+  .Courses-links {
+    color: rgb(62, 62, 239);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: none; /* Initially, no text shadow */
+    transition: text-shadow 0.3s, transform 0.3s; /* Add a smooth transition effect */
+    transform: scale(1);
+  }
+
+  .Courses-links:hover {
+    color: rgb(62, 62, 239);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
+  .card-img-top {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .card {
+    text-align: center; /* Center any inline content within the image container */
+    border: none;
+  }
+
+  .card:hover {
+    box-shadow: rgba(0.1, 0.1, 0.1, 0.1) 1px 1px 6px 3px inset;
+  }
+
+  .card-text {
+    font-weight: 500;
+  }
+ 
+  
+}

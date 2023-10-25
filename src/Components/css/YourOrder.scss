@@ -1,0 +1,39 @@
+.dv-your-order {
+  .first-row {
+    background-color: #d9d9d980; /* Add the grey color you prefer */
+  }
+
+  .h5 {
+    text-align: center;
+    font-weight: 500;
+  }
+  .para {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 35px;
+  }
+  .color {
+    color: red;
+  }
+  .w-100 {
+    margin: 10px;
+  }
+  /* YourOrder.css */
+  /* Target the entire form */
+  .your-form {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  /* Increase the width of the radio buttons */
+  .your-form .radio-input input[type="radio"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Add spacing between radio button and radio label */
+  .your-form .radio-label {
+    margin-left: 50px; /* Adjust the value as needed */
+  }
+}

@@ -1,0 +1,125 @@
+.dv-cart-popup {
+
+  position: relative; 
+  .cart-header {
+    margin-top: 50px;
+    border-bottom: 1px solid #ccc;
+   
+  }
+  .h2{
+    padding-bottom: 15px;
+  }
+
+  margin-right: 20px;
+  .w-100 {
+    border-radius: 5px;
+    padding-bottom: 5px;
+  }
+
+  .delete-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .cart-item {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Add a bottom border to each cart item */
+    padding: 10px 0; /* Optional: Add some padding to the cart items */
+  }
+
+  /* Additional styling for individual elements within a cart item */
+  .cart-item img {
+    width: 100%;
+    /* Add any other styling as needed for the image */
+  }
+
+  /* Add styling for the name, price, and delete icon as needed */
+
+  
+  .d-flex {
+    padding-top: 20px;
+  }
+  .price {
+    font-weight: bold;
+  }
+
+  .name {
+    font-weight: 600;
+  }
+
+  
+  .cross-image-container {
+    width: 40px; /* Adjust the size of the container as needed */
+    height: 40px; /* Adjust the size of the container as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000; /* Border creates the hollow circle effect */
+    border-radius: 50%; /* Makes the container circular */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ /* Style the cross image inside the container */
+ .cross-image-container img {
+  width: 80%; /* Adjust the size of the cross image */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.button{
+  background-color: blue;
+  color: white;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px; 
+font-weight: 600;
+font-size: 20px;
+border: none;
+}
+
+.checkout{
+  display: flex;
+ justify-content: center;
+ padding-top: 20px;
+}
+.subtotal{
+  padding-top: 15px;
+ 
+}
+
+
+
+
+.cart-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.close-cart-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+  }
+
+ 
+  
+ 
+

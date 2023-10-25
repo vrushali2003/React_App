@@ -1,0 +1,68 @@
+.dv-what-we-do {
+  .book {
+    width: 20px;
+    height: 20px;
+    vertical-align: 0;
+    margin:4px ;
+   
+  }
+
+  .title {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading{
+    text-align: center;
+   
+  }
+  
+  .paragraph {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  
+  .h4 {
+  
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  
+
+  
+  .card-img-circle {
+    width: 120px; /* Adjust the width and height to fit your design */
+    height: 120px;
+    background-color: blue; /* Set the background color to blue */
+    border-radius: 50%; /* Create a circular background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the circle within the card */
+    position: relative; /* Set a relative position for stacking */
+    margin-top: 30px;
+    transition: background-color 0.3s;
+  }
+
+  .card {  
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      margin: 20px;
+      padding: 10px;
+  }
+  .card:hover {
+    border: 2px solid #bb00ff;
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  .card:hover .card-img-circle {
+    background-color: white; /* Keep it white on card hover */
+  }
+  .card:hover .w-50 {
+    background-color: blue; /* Change to blue on card hover */
+  }
+}

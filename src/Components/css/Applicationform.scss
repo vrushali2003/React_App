@@ -1,0 +1,133 @@
+.dv-Application-form {
+  background-color: black;
+
+  .heading-apply-for-teach {
+    text-shadow: black 8px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .par-apply-for-teach {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  
+
+  .heading-hey-trainer {
+    text-align: center;
+    padding-top: 150px;
+
+    font-size: 45px;
+  }
+  .para-trainee {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .my-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .my-button:hover {
+    background-color: #0247fe;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .my-button-next {
+    padding: 10px 20px;
+    background-color: #0247fe;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .my-button-next:hover {
+    background-color: white;
+    color: #0247fe;
+    border: 2px solid #0247fe;
+   
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .d-flex {
+    margin-left: 130px;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    width: 45%;
+    height: 50%;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 0;
+  }
+  .card-apply-for-teach2 {
+    width: 45%;
+    height: 120%;
+    margin-top: 130px;
+    margin-bottom: 90px;
+  }
+  
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-top: 10px;
+   
+  }
+  .input-container {
+    position: relative;
+    display: inline-block;
+    
+    
+   
+  }
+  .icon{
+    position: absolute;
+    top: 30%;
+    left: 20px; /* Adjust the left positioning as needed */
+    transform: translateY(-50%);
+    z-index: 1;
+    width:30 ;
+    height:30; }
+    
+    .form-control{
+      width: 400px;
+      height: 60px;
+      margin-bottom: 30px;
+      background-color:  #D9D9D980;
+      font-weight: 450;
+      color: #00000080;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      padding-left: 60px; /* Increase the padding to move the text away from the icon */
+      font-size: 15px;
+    
+      }
+}
